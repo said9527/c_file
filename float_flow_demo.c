@@ -1,3 +1,7 @@
+/*
+浮点数的上溢和下溢
+*/
+
 #include <stdio.h>
 #include <float.h>
 
@@ -14,7 +18,10 @@ int main() {
     printf("overflow: %e\n", overflow);
 
     printf("min_float: %e\n", min_float);
-    printf("underflow: %e", underflow);
+    printf("underflow: %e\n", underflow);
+
+    printf("float :%d\n", FLT_DIG);     //最小有效位数保证6位
+    printf("double : %d\n", DBL_DIG);   //最小有效位数保证15位
 
     return 0;
 }
