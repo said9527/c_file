@@ -28,11 +28,10 @@ int main(void)
         if (number % 2 == 0)
         {
             printf("%" PRId32 "的是偶数\n", number);
-            continue;
         }
         else {
             printf("%" PRId32 "的是奇数\n", number);
-            continue;
+
         }
     }
 
